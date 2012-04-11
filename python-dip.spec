@@ -1,12 +1,12 @@
 Summary:	Application Framework for Python 2 and PyQt
 Summary(pl.UTF-8):	Szkielet dla aplikacji opartych na Pythonie 2 i PyQt
 Name:		python-dip
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	GPL v2 with exception or commercial
 Group:		Development/Languages/Python
 Source0:	http://www.riverbankcomputing.com/static/Downloads/dip/dip-py2-gpl-%{version}.tar.gz
-# Source0-md5:	f27d3ff19416339270b2ec4256947c21
+# Source0-md5:	289e5e4b3bb1dda0e43ed5d48748f540
 URL:		http://www.riverbankcomputing.com/static/Docs/dip/
 BuildRequires:	python-devel >= 1:2.6
 BuildRequires:	rpm-pythonprov
