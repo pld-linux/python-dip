@@ -31,13 +31,11 @@ Ta wersja jest przeznaczona dla Pythona 2.x.
 %setup -q -n dip-py2-gpl-%{version}
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 
