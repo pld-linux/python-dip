@@ -10,7 +10,7 @@ Source0:	http://www.riverbankcomputing.com/static/Downloads/dip/dip-py2-gpl-%{ve
 URL:		http://www.riverbankcomputing.com/static/Docs/dip/
 BuildRequires:	python-devel >= 1:2.6
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules
 Requires:	python-PyQt4 >= 4.7.5
 Requires:	QtGui >= 4.6
